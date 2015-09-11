@@ -125,7 +125,6 @@ public:
   void drawRawImage(ImageWidget*);
   void drawSmallSegmentedImage(ImageWidget *image);
   void drawSegmentedImage(ImageWidget *image);
-  void drawBeacons(ImageWidget *image);
   void changeBigImage(int type, int cam);
   void updateBigImage();
   void updateBigImage(ImageWidget *image);

@@ -142,7 +142,7 @@ void naointerface::start() {
   }
 
   tts_proxy_->post.stopAll();
-  tts_proxy_->setVolume(0.1f);
+  tts_proxy_->setVolume(5.5f);
   tts_proxy_->post.say("Interface");
 }
 

@@ -42,6 +42,7 @@ def processFrame():
       initNonMemory(initLoc=False)
       memory.speech.say("Vision")
       firstFrame = False
+    print "calling visionc process frame"
     
     core.visionC.processFrame()
     core.instance.postVision()
